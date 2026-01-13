@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Candy Panel</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:black;
+  color:white;
+  font-family:Segoe UI,Arial;
+  overflow:hidden;
+}
+
+/* ANIME */
+.anime{
+  position:fixed;
+  inset:0;
+  background:url("anime.png") center/contain no-repeat;
+  animation:spin 20s linear infinite;
+  opacity:.22;
+  z-index:0;
+}
+@keyframes spin{
+  from{transform:rotate(0deg)}
+  to{transform:rotate(360deg)}
+}
+
+/* PANEL */
+.panel{
+  position:relative;
+  z-index:2;
+  display:flex;
+  height:100vh;
+}
+
+/* MENU */
+aside{
+  width:260px;
+  background:rgba(10,10,10,.75);
+  backdrop-filter:blur(12px);
+  padding:20px;
+  border-right:1px solid #222;
+}
+aside h1{
+  text-align:center;
+  color:#ff4dd2;
+  margin-bottom:20px;
+}
+aside button{
+  width:100%;
+  padding:14px;
+  margin:6px 0;
+  background:#111;
+  color:white;
+  border:none;
+  border-radius:14px;
+  cursor:pointer;
+  transition:.3s;
+}
+aside button:hover{
+  background:#ff4dd2;
+  box-shadow:0 0 20px #ff4dd2;
+}
+
+/* CONTENT */
+main{
+  flex:1;
+  padding:40px;
+}
+
+.card{
+  background:rgba(20,20,20,.7);
+  backdrop-filter:blur(10px);
+  border-radius:20px;
+  padding:30px;
+  width:420px;
+  box-shadow:0 0 30px rgba(255,77,210,.15);
+  animation:fade .4s;
+}
+@keyframes fade{
+  from{opacity:0;transform:translateY(20px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+input{
+  width:100%;
+  padding:14px;
+  margin:10px 0;
+  border-radius:12px;
+  border:none;
+  outline:none;
+  background:#111;
+  color:white;
+}
+
+.action{
+  width:100%;
+  padding:14px;
+  margin-top:12px;
+  background:#ff4dd2;
+  border:none;
+  border-radius:14px;
+  color:black;
+  font-weight:bold;
+  cursor:pointer;
+}
+.action:hover{ box-shadow:0 0 25px #ff4dd2; }
+
+.small{font-size:12px;opacity:.7}
+</style>
+</head>
+
+<body>
+
+<div class="anime"></div>
+
+<div class="panel">
+  <aside>
+    <h1>🍬 Candy Panel</h1>
+    <button onclick="page('home')">Ana Sayfa</button>
+    <button onclick="page('adsoyad')">Ad Soyad</button>
+    <button onclick="page('tc')">TC Kimlik</button>
+    <button onclick="page('medeni')">Medeni Hal</button>
+  </aside>
+
+  <main id="content"></main>
+</div>
+
+<script>
+/* ======================
+   DATA (AYNI KLASÖRDEN)
+   ====================== */
+let DATA = [];
+
+fetch("data.json")
+  .then(r => r.json())
+  .then(j => DATA = j)
+  .catch(() => alert("data.json bulunamadı!"));
+
+/* ======================
+   SAYFALAR
+   ====================== */
+const pages = {
+
+home: `
+<div class="card">
+<h2>Hoş Geldin</h2>
+<p>Candy Panel aktif.</p>
+<p class="small">Data aynı klasördeki <b>data.json</b> dosyasından okunur.</p>
+</div>
+`,
+
+adsoyad: `
+<div class="card">
+<h2>Ad Soyad Sorgulama</h2>
+<input id="ad" placeholder="Ad">
+<input id="soyad" placeholder="Soyad">
+<button class="action" onclick="adSoyadSorgu()">Sorgula</button>
+<div id="sonuc"></div>
+</div>
+`,
+
+tc: `
+<div class="card">
+<h2>TC Kimlik Sorgulama</h2>
+<input id="tcInput" placeholder="TC Kimlik No" maxlength="11">
+<button class="action" onclick="tcSorgu()">Sorgula</button>
+<div id="sonuc"></div>
+</div>
+`,
+
+medeni: `
+<div class="card">
+<h2>Medeni Hal</h2>
+<input id="tcInput" placeholder="TC Kimlik No" maxlength="11">
+<button class="action" onclick="medeniSorgu()">Sorgula</button>
+<div id="sonuc"></div>
+</div>
+`
+};
+
+function page(p){
+  document.getElementById("content").innerHTML = pages[p];
+}
+
+/* ======================
+   SORGULAR
+   ====================== */
+function adSoyadSorgu(){
+  const ad = ad.value.toLowerCase();
+  const soyad = soyad.value.toLowerCase();
+
+  const k = DATA.find(x =>
+    x.ad.toLowerCase() === ad &&
+    x.soyad.toLowerCase() === soyad
+  );
+
+  sonuc.innerHTML = k
+   ? `<hr>TC: ${k.tc}<br>İl: ${k.il}<br>İlçe: ${k.ilce}<br>Medeni: ${k.medeni}`
+   : "<hr>Kayıt bulunamadı";
+}
+
+function tcSorgu(){
+  const k = DATA.find(x => x.tc === tcInput.value);
+  sonuc.innerHTML = k
+   ? `<hr>${k.ad} ${k.soyad}<br>Medeni: ${k.medeni}`
+   : "<hr>TC bulunamadı";
+}
+
+function medeniSorgu(){
+  const k = DATA.find(x => x.tc === tcInput.value);
+  sonuc.innerHTML = k
+   ? `<hr>Medeni Hal: <b>${k.medeni}</b>`
+   : "<hr>Kayıt yok";
+}
+
+page("home");
+</script>
+
+</body>
+</html>
