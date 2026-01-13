@@ -1,0 +1,311 @@
+TC: 36886047372
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 5.3.1986
+Nüfus İl: BURSA
+Nüfus İlçe: İNEGÖL
+Anne Adı: SEVİM
+Anne TC: 36889047218
+Baba Adı: METİN
+Baba TC: 36901046830
+Uyruk: null
+İşlem: Kopyala
+
+TC: 36886047372
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 5.3.1986
+Nüfus İl: BURSA
+Nüfus İlçe: İNEGÖL
+Anne Adı: SEVİM
+Anne TC: 36889047218
+Baba Adı: METİN
+Baba TC: 36901046830
+Uyruk: null
+İşlem: Kopyala
+
+TC: 31450238286
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 16.9.1975
+Nüfus İl: BURSA
+Nüfus İlçe: KARACABEY
+Anne Adı: SABİHA
+Anne TC: 31462237840
+Baba Adı: KASIM
+Baba TC: 31468237622
+Uyruk: null
+İşlem: Kopyala
+
+TC: 30583279692
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 3.4.1985
+Nüfus İl: BURSA
+Nüfus İlçe: MUDANYA
+Anne Adı: HAYRİYE
+Anne TC: 30592279300
+Baba Adı: REŞAT
+Baba TC: 30616278586
+Uyruk: null
+İşlem: Kopyala
+
+TC: 26212449000
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 9.7.1979
+Nüfus İl: BURSA
+Nüfus İlçe: MUDANYA
+Anne Adı: EMİNE
+Anne TC: 26236448218
+Baba Adı: ALİ OSMAN
+Baba TC: 26254447644
+Uyruk: null
+İşlem: Kopyala
+
+TC: 35914097266
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 27.7.1954
+Nüfus İl: BURSA
+Nüfus İlçe: MUSTAFAKEMALPAŞA
+Anne Adı: AYŞE
+Anne TC: 14377689386
+Baba Adı: SEFER
+Baba TC: 35926096820
+Uyruk: null
+İşlem: Kopyala
+
+TC: 34033187896
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 19.12.1961
+Nüfus İl: BURSA
+Nüfus İlçe: YENİŞEHİR
+Anne Adı: AYŞE
+Anne TC: 34036187732
+Baba Adı: İSMAİL
+Baba TC: 34066186712
+Uyruk: null
+İşlem: Kopyala
+
+TC: 25330478596
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 31.3.1950
+Nüfus İl: BURSA
+Nüfus İlçe: YENİŞEHİR
+Anne Adı: ZEYNEP
+Anne TC: 25333478432
+Baba Adı: ALİ
+Baba TC: 25348477932
+Uyruk: null
+İşlem: Kopyala
+
+TC: 23176550032
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 18.7.1970
+Nüfus İl: BURSA
+Nüfus İlçe: YENİŞEHİR
+Anne Adı: ÜMMÜSELİME
+Anne TC: 23200549230
+Baba Adı: NİYAZİ
+Baba TC: 23239547948
+Uyruk: null
+İşlem: Kopyala
+
+TC: 18103718548
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 3.10.1945
+Nüfus İl: BURSA
+Nüfus İlçe: YENİŞEHİR
+Anne Adı: NAZMİYE
+Anne TC: 18109718320
+Baba Adı: HASAN
+Baba TC: 18112718256
+Uyruk: null
+İşlem: Kopyala
+
+TC: 31618246696
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 15.1.1983
+Nüfus İl: BURSA
+Nüfus İlçe: NİLÜFER
+Anne Adı: AYŞE
+Anne TC: 15214793372
+Baba Adı: SÜLEYMAN
+Baba TC: 31621246522
+Uyruk: null
+İşlem: Kopyala
+
+TC: 41126213134
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 15.6.2020
+Nüfus İl: BURSA
+Nüfus İlçe: OSMANGAZİ
+Anne Adı: MAŞALLAH
+Anne TC: 28525535364
+Baba Adı: ZEYNEL ABİDİN
+Baba TC: 28588533260
+Uyruk: null
+İşlem: Kopyala
+
+TC: 40909227160
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 18.8.1983
+Nüfus İl: BURSA
+Nüfus İlçe: OSMANGAZİ
+Anne Adı: TEVRAT
+Anne TC: 41020223420
+Baba Adı: MUSTAFA
+Baba TC: 41047222574
+Uyruk: null
+İşlem: Kopyala
+
+TC: 37369063322
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 23.11.1986
+Nüfus İl: BURSA
+Nüfus İlçe: OSMANGAZİ
+Anne Adı: KERİME
+Anne TC: 37375063194
+Baba Adı: SABAHATTİN
+Baba TC: 37378063030
+Uyruk: null
+İşlem: Kopyala
+
+TC: 33181202796
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 24.11.1952
+Nüfus İl: BURSA
+Nüfus İlçe: OSMANGAZİ
+Anne Adı: AZİME
+Anne TC: 32668219838
+Baba Adı: MEHMET
+Baba TC: 32671219764
+Uyruk: null
+İşlem: Kopyala
+
+TC: 30892281126
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 26.3.1955
+Nüfus İl: BURSA
+Nüfus İlçe: OSMANGAZİ
+Anne Adı: GÜLSÜM
+Anne TC: null
+Baba Adı: BEYTULLAH
+Baba TC: null
+Uyruk: null
+İşlem: Kopyala
+
+TC: 29017548084
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 7.8.1984
+Nüfus İl: BURSA
+Nüfus İlçe: OSMANGAZİ
+Anne Adı: HANİFE
+Anne TC: 29029547648
+Baba Adı: MEHMET
+Baba TC: 29035547410
+Uyruk: null
+İşlem: Kopyala
+
+TC: 29017548084
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 7.8.1984
+Nüfus İl: BURSA
+Nüfus İlçe: OSMANGAZİ
+Anne Adı: HANİFE
+Anne TC: 29029547648
+Baba Adı: MEHMET
+Baba TC: 29035547410
+Uyruk: null
+İşlem: Kopyala
+
+TC: 21460585180
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 24.8.1968
+Nüfus İl: BURSA
+Nüfus İlçe: OSMANGAZİ
+Anne Adı: ZÜLFİYE
+Anne TC: 21463585026
+Baba Adı: HİLMİ
+Baba TC: 33415186786
+Uyruk: null
+İşlem: Kopyala
+
+TC: 14917812496
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 8.8.1968
+Nüfus İl: BURSA
+Nüfus İlçe: OSMANGAZİ
+Anne Adı: SENİYE
+Anne TC: 14923812268
+Baba Adı: HÜSEYİN
+Baba TC: 14929812040
+Uyruk: null
+İşlem: Kopyala
+
+TC: 24586488724
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 17.2.1957
+Nüfus İl: BURSA
+Nüfus İlçe: YILDIRIM
+Anne Adı: AYŞE
+Anne TC: 24595488432
+Baba Adı: SABRİ
+Baba TC: 24598488378
+Uyruk: null
+İşlem: Kopyala
+
+TC: 53113536546
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 9.8.1977
+Nüfus İl: BURSA
+Nüfus İlçe: YILDIRIM
+Anne Adı: SEMİHA
+Anne TC: 53116536482
+Baba Adı: HASAN
+Baba TC: 53167534734
+Uyruk: null
+İşlem: Kopyala
+
+TC: 36241101008
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 22.9.1969
+Nüfus İl: BURSA
+Nüfus İlçe: YILDIRIM
+Anne Adı: MELEK
+Anne TC: 20395598562
+Baba Adı: DURSUN
+Baba TC: 36247100890
+Uyruk: null
+İşlem: Kopyala
+
+TC: 23143551598
+Adı: AHMET
+Soyadı: SEVER
+Doğum Tarihi: 7.6.2004
+Nüfus İl: BURSA
+Nüfus İlçe: YILDIRIM
+Anne Adı: HATİCE
+Anne TC: 30619301632
+Baba Adı: İBRAHİM
+Baba TC: 33223214886
+Uyruk: null
+İşlem: Kopyala
